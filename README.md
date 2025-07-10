@@ -1,12 +1,16 @@
 # aws-networking-terraform
 
 How To Run:
+
 terraform init
+
 terraform plan -var-file="terraform.tfvars"
+
 terraform apply -var-file="terraform.tfvars"
 
 
 Key Features:
+
 VPC with public & private subnets in 2 Availability Zones (us-east-1)
 
 Internet Gateway, NAT Gateway
